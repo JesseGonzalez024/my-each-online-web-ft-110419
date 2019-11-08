@@ -5,6 +5,6 @@ def my_each(array)
       yield p x
       i += 1
     end
-    array[0].uniq
+    array.uniq
   end
 end
