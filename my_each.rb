@@ -5,5 +5,6 @@ def my_each(array)
       yield p x
       i += 1
     end
+    array
   end
 end
